@@ -41,6 +41,7 @@ def evaluate(context: ModelContext, **kwargs):
         'f1-score': 0.72,
         'markfactor': 3,
         'markfactor2': 1,
+        'markfactor3': 7,
     }
 
     with open(f"{context.artifact_output_path}/metrics.json", "w+") as f:
