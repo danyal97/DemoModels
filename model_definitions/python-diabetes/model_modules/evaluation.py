@@ -38,10 +38,7 @@ def evaluate(context: ModelContext, **kwargs):
         'Accuracy': 0.81,
         'Recall': 0.61,
         'Precision': 0.3,
-        'f1-score': 0.72,
-        'markfactor': 3,
-        'markfactor2': 1,
-        'markfactor3': 7,
+        'f1-score': 0.72
     }
 
     with open(f"{context.artifact_output_path}/metrics.json", "w+") as f:
